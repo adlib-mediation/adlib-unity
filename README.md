@@ -29,7 +29,7 @@ AdLib Unity Plugin
 | Target Custom Longitude | double             | The desired target longitude if CUSTOM_LOCATION is selected for Target Location Type (Android Only)                                                                                                                                                                                             |
 | Target Country          | string             | The desired target country (iOS Only)                                                                                                                                                                                                                                                           |
 
-
+![unity screenshot](https://github.com/adlib2015/adlib-unity/blob/master/Unity.png "Unity")
 
 4.	Drag and drop the AdLibManger prefab in each of the scenes where you plan to use AdLib. Make sure that all of the information needed is filled in the inspector for the AdLibManager prefab.
 
@@ -98,5 +98,5 @@ If you are unsure if your AndroidManifest.xml is structured correctly, refer to 
 4.	Drag and drop or manually add the according Adlib.framework file under the Embedded Binaries section in your project's target General settings. 
 
 
-
+![xcode screenshot](https://github.com/adlib2015/adlib-unity/blob/master/Xcode.png "Xcode")
 
