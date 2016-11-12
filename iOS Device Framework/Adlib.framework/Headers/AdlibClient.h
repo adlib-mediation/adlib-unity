@@ -46,7 +46,7 @@ extern NSString *const AdlibClientStartedNotification;
 
 /**
  *  Use this method to try to connect to the Adlib REST API if there is an issue
- *  connecting using the `startWithAppId:unitId:` method.
+ *  connecting using the `startWithAppId:` method.
  */
 - (void)connect;
 

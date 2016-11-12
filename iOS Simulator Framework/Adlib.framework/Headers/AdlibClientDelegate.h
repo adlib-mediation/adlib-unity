@@ -49,4 +49,36 @@
  */
 - (void)adlibClient:(AdlibClient *)adlibClient didTapBannerWithNetwork:(NSString *)networkName;
 
+/**
+ *  Global delegate call when an `AMInterstitialView` received an interstitial.
+ *
+ *  @param adlibClient Current client.
+ *  @param networkName Name of network that loaded.
+ */
+- (void)adlibClient:(AdlibClient *)adlibClient didReceiveInterstitialWithNetwork:(NSString *)networkName;
+
+/**
+ *  Global delegate call when an `AMInterstitialView` showed an interstitial.
+ *
+ *  @param adlibClient Current client.
+ *  @param networkName Name of network that showed.
+ */
+- (void)adlibClient:(AdlibClient *)adlibClient didShowInterstitialWithNetwork:(NSString *)networkName;
+
+/**
+ *  Global delegate call when a interstitial view was tapped.
+ *
+ *  @param adlibClient Current client.
+ *  @param networkName Name of network that was tapped.
+ */
+- (void)adlibClient:(AdlibClient *)adlibClient didTapInterstitialWithNetwork:(NSString *)networkName;
+
+/**
+ *  Global delegate call when a interstitial view was dismissed.
+ *
+ *  @param adlibClient Current client.
+ *  @param networkName Name of network that was dismissed.
+ */
+- (void)adlibClient:(AdlibClient *)adlibClient didDismissInterstitialWithNetwork:(NSString *)networkName;
+
 @end

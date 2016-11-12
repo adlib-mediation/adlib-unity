@@ -19,3 +19,5 @@ FOUNDATION_EXPORT const unsigned char AdlibVersionString[];
 #import <Adlib/AMDemographics.h>
 #import <Adlib/AMBannerView.h>
 #import <Adlib/AMBannerViewDelegate.h>
+#import <Adlib/AMInterstitialView.h>
+#import <Adlib/AMInterstitialViewDelegate.h>
